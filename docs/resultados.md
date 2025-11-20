@@ -7,22 +7,30 @@ Este documento apresenta os resultados finais obtidos com o agente bibliotecári
 ## 📚 Exemplos de respostas finais
 
 ### 📘 Recomendação para o ENEM
-![Resultado ENEM](prints/resultados/resultado-enem.png)
+![Resultado ENEM](../prints/resultados/resultado-enem.png)
+![Resultado ENEM](../prints/resultados/resultado-enem2.png)
+![Resultado ENEM](../prints/resultados/resultado-enem3.png)
+![Resultado ENEM](../prints/resultados/resultado-enem4.png)
+![Resultado ENEM](../prints/resultados/resultado-enem5.png)
 
 ### ✍️ Sugestões para redação
-![Resultado Redação](prints/resultados/resultado-redacao.png)
+![Resultado Redação](../prints/resultados/resultado-redacao.png)
+![Resultado Redação](../prints/resultados/resultado-redacao2.png)
+![Resultado Redação](../prints/resultados/resultado-redacao3.png)
+![Resultado Redação](../prints/resultados/resultado-redacao4.png)
+![Resultado Redação](../prints/resultados/resultado-redacao5.png)
 
 ### 💞 Romance clássico com complexidade intermediária
-![Resultado Romance](prints/resultados/resultado-romance-classico.png)
+![Resultado Romance](../prints/resultados/resultado-romance-classico.png)
 
 ### 🤖 Cyberpunk
-![Resultado Cyberpunk](prints/resultados/resultado-cyberpunk.png)
+![Resultado Cyberpunk](../prints/resultados/resultado-cyberpunk.png)
 
 ### 📖 Edgar Allan Poe
-![Resultado Poe](prints/resultados/resultado-edgar-poe.png)
+![Resultado Poe](../prints/resultados/resultado-edgar-allan-poe.png)
 
 ### ⚖️ Crime e Castigo
-![Resultado Dostoiévski](prints/resultados/resultado-crime-e-castigo.png)
+![Resultado Dostoiévski](../prints/resultados/resultado-crime-e-castigo.png)
 
 ---
 
