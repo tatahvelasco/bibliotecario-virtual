@@ -14,7 +14,7 @@ O projeto foi iniciado no ambiente Microsoft Foundry, dentro do espaço `project
 ---
 
 ### 2. Criação do agente
-O agente foi criado com o nome `afgp-bibliotecario`, que serviu como identificador interno.
+O agente foi criado com o nome `afg-bibliotecario`, que serviu como identificador interno.
 
 ![Criação do nome do Agente](../prints/configuracao/criando-nome-do-agente.png)
 
@@ -35,7 +35,7 @@ A ferramenta `File search` foi ativada para permitir que o agente consultasse di
 ---
 
 ### 5. Anexação da base de dados
-Foram anexados arquivos contendo mais de 200 obras literárias, incluindo versões refinadas da base original.
+Foram anexados arquivos contendo 200 obras literárias, incluindo versões refinadas da base original.
 
 ![Upload da Base de Dados](../prints/configuracao/upload-base-de-dados2.png)
 
