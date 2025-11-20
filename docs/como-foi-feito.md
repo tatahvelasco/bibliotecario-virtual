@@ -1,104 +1,64 @@
-# 🛠️ Como o agente foi desenvolvido
+# 🛠️ Como o agente foi criado
 
-Este documento apresenta o passo a passo da criação do agente bibliotecário digital no Microsoft Foundry, com imagens e explicações de cada etapa.
-
----
-
-## 1. Acesso ao ambiente Foundry
-
-O projeto foi iniciado na plataforma [Microsoft Foundry](https://ai.azure.com), onde foi criado um novo agente a partir do botão **Start building → Create agent**.
-
-📷 *Imagem: Tela de boas-vindas com opções de criação de agente*
+Este documento apresenta o processo de criação do agente bibliotecário digital dentro da plataforma Microsoft Foundry.
 
 ---
 
-## 2. Criação do agente
+## 🧭 Etapas de criação
 
-Foi definido um nome único para o agente (`gpts-talitavelasco`) e iniciado o processo de configuração.
+### 1. Acesso à plataforma
+O projeto foi iniciado no ambiente Microsoft Foundry, dentro do espaço `project-frontier-girls`.
 
-📷 *Imagem: Modal de criação do agente com campo de nome preenchido*
-
----
-
-## 3. Configuração inicial
-
-Na aba **Agents**, foram ajustadas as configurações principais:
-
-- Modelo selecionado: `gpt-4-1`
-- Ferramentas ativadas: `File search`
-- Instruções personalizadas para limitar o escopo e garantir respostas fiéis à base.
-
-📷 *Imagem: Tela de configuração do agente com modelo e ferramentas visíveis*
+![Criação do Agente](../prints/configuracao/criacao-do-agente.png)
 
 ---
 
-## 4. Adição de ferramentas
+### 2. Criação do agente
+O agente foi criado com o nome `afgp-bibliotecario`, que serviu como identificador interno.
 
-A ferramenta **File search** foi adicionada para permitir que o agente consultasse diretamente a base de dados textual.
-
-📷 *Imagem: Seleção da ferramenta File search e botão de confirmação*
-
----
-
-## 5. Upload da base de dados
-
-A base de dados (`Base de Dados.txt`) foi anexada a um índice vetorial chamado `base-de-dados-completa`.  
-Posteriormente, versões melhoradas da base foram adicionadas para refinar as respostas.
-
-📷 *Imagem: Tela de upload e anexação da base com status de sucesso*
+![Criação do nome do Agente](../prints/configuracao/criando-nome-do-agente.png)
 
 ---
 
-## 6. Playground e testes
+### 3. Escolha do modelo
+Foi selecionado o modelo `gpt-4-1`, por sua capacidade de gerar respostas contextualizadas e bem estruturadas.
 
-No Playground, o agente foi testado com diferentes perguntas. A base foi trocada e ajustada conforme os testes evoluíam.  
-O agente foi configurado para responder com 3 livros por vez, incluindo sinopse, complexidade e motivo para ler.
-
-📷 *Imagem: Tela do Playground com base ativa e ferramenta em uso*
+![Escolha do Modelo](../prints/configuracao/selecao-do-modelo-e-tool.png)
 
 ---
 
-## 7. Instruções refinadas
+### 4. Ativação de ferramentas
+A ferramenta `File search` foi ativada para permitir que o agente consultasse diretamente os arquivos anexados.
 
-As instruções foram ajustadas para garantir que o agente:
-
-- Perguntasse sobre ficção ou não ficção.
-- Solicitasse o gênero desejado.
-- Retornasse **exatamente 3 livros** com sinopse fiel, complexidade e motivo para ler.
-- Usasse linguagem natural e acessível.
-
-📷 *Imagem: Instruções detalhadas no painel do agente*
+![Ativação da Ferramenta](../prints/configuracao/upload-base-de-dados.png)
 
 ---
 
-## 8. Versões e variações
+### 5. Anexação da base de dados
+Foram anexados arquivos contendo mais de 200 obras literárias, incluindo versões refinadas da base original.
 
-Foram criadas versões alternativas do agente (`dlg-bibliotecario`, `afg-bibliotecario`) com variações nas instruções, prompts iniciais e estilo de resposta.  
-Cada versão foi testada com diferentes bases e configurações.
-
-📷 *Imagem: Configuração de versões com prompts e descrição personalizada*
+![Upload da Base de Dados](../prints/configuracao/upload-base-de-dados2.png)
 
 ---
 
-## 9. Monitoramento e avaliação
+### 6. Playground e testes iniciais
+O agente foi testado no Playground da plataforma, com variações de instruções e diferentes estilos de resposta.
 
-O desempenho do agente foi acompanhado por meio dos dashboards do Foundry:
+![Agente Configurado](../prints/configuracao/tela-apos-mudanca-config-agente.png)
 
-- Número de execuções
-- Taxa de erro
-- Histórico de conversas
-- Uso de tokens
+---
 
-📷 *Imagens: Painéis de monitoramento e avaliação com gráficos e métricas*
+## 📄 Documentação complementar
+
+Para detalhes específicos de cada etapa, consulte:
+
+- ⚙️ [Configuração do agente](configuracao.md)  
+- 🧪 [Testes realizados](testes.md)  
+- 📸 [Resultados finais](resultados.md)
 
 ---
 
 ## ✅ Conclusão
 
-O agente foi configurado com foco em **clareza, fidelidade à base e utilidade para estudantes**.  
-As imagens acima documentam todas as etapas, desde a criação até os testes finais, garantindo transparência e qualidade no desenvolvimento.
-
----
-
-🔗 Voltar para o [README principal](../README.md)
+A criação do agente envolveu decisões técnicas e editoriais para garantir que ele fosse útil, acessível e alinhado com os objetivos educacionais do projeto.
 
