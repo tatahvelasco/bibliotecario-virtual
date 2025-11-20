@@ -7,11 +7,11 @@ Este documento apresenta os testes realizados durante o desenvolvimento do agent
 ## 🔍 Exemplos de testes
 
 ### 📘 Ficção científica
-![Teste Ficção Científica](../prints/testes/testes-ficcao-cientifica.png)
-![Teste Ficção Científica](../prints/testes/testes-ficcao-cientifica2.png)
-![Teste Ficção Científica](../prints/testes/testes-ficcao-cientifica3.png)
+![Teste Ficção Científica](../prints/testes/testes-ficcao-cientica.png)
+![Teste Ficção Científica](../prints/testes/testes-ficcao-cientica2.png)
+![Teste Ficção Científica](../prints/testes/testes-ficcao-cientica3.png)
 
 ### 🧙‍♂️ Fantasia
-![Fantasia](../prints/testes/testes-fantasia.png)
-![Fantasia](../prints/testes/testes-fantasia2.png)
+![Teste Fantasia](../prints/testes/teste-fantasia.png)
+![Teste Fantasia](../prints/testes/teste-fantasia2.png)
 
